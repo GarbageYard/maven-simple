@@ -1,9 +1,10 @@
-mvn -v
-echo .
+@echo off
+call mvn -v
+echo.
 echo %PATH%
-echo .
+echo.
 where java
-echo .
+echo.
 echo %JAVA_HOME%
-echo .
+echo.
 mvn -B -DskipTests clean package
